@@ -1,0 +1,59 @@
+#critick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 91px); 
+}
+.title3 {
+    color: rgb(255, 68, 0);
+    font-size: 4rem;
+    width: none;
+    display: flex;
+    gap: 28px;
+    margin-top: 5%;
+    filter: drop-shadow(2px 1px 2px #FF4500);
+}
+
+.subtitle3 {
+    color: white ;
+    font-size: 1.5rem;
+    width: none;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    gap: 10px;
+     }
+
+
+     .criticas {
+        padding: 20px;
+    }
+    
+    .card-critica {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .estrelas {
+        display: flex;
+    }
+    
+    .estrelas input {
+        display: none;
+    }
+    
+    .estrelas label {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    .estrelas label:hover,
+    .estrelas input:checked + label {
+        color: orangered;
+    }
+
+    .card-critica {
+        color: white;
+    }
+
+   
